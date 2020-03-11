@@ -50,6 +50,5 @@ public class RestTest {
         xieZhuReturnJson = restTemplate.postForObject(url, req, XieZhuReturnJson.class);
         return xieZhuReturnJson;
     }
-
-
+    
 }
